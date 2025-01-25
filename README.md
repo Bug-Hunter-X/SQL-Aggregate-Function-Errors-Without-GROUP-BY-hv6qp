@@ -1,0 +1,2 @@
+# SQL Aggregate Function Errors Without GROUP BY
+This example demonstrates a common SQL error that arises from using aggregate functions (such as COUNT(*) and AVG()) without a corresponding GROUP BY clause. When aggregate functions are used without grouping, the database typically aggregates the entire result set, potentially producing unexpected or misleading results. The solution shows the importance of using GROUP BY to accurately calculate aggregate values at a more granular level.
